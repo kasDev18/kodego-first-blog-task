@@ -291,7 +291,7 @@ exploreBtn.addEventListener("click", function(){
 
       const myTimeout = setTimeout(myGreeting, 2000);
       function myGreeting() {
-      location.replace("/examples/homepage.html");
+      location.replace("./examples/homepage.html");
     }
   }
 })
